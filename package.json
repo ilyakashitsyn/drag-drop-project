@@ -1,0 +1,28 @@
+{
+  "name": "essential-typescript",
+  "version": "1.0.0",
+  "description": "- Understanding how work typescript - Creating a Custom Type - Defining a Function with a Union Type Return Value - Adding Application Logic - Connecting Functions & Passing Values - Compilation & Execution",
+  "main": "eslint.config.js",
+  "scripts": {
+    "do": "tsc $(find ./src -type f -name '*.ts' -print0 | xargs -0 ls -t | head -n 1) --outDir ./dist",
+    "clear": "rimraf dist",
+    "build": "rimraf dist && tsc",
+    "watch": "rimraf dist && tsc --watch"
+  },
+  "keywords": [],
+  "author": "Ilya Kashitsyn",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
+    "@typescript-eslint/parser": "^8.33.1",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "globals": "^16.1.0",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
