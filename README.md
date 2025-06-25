@@ -4,3 +4,4 @@
 - Next-generation TypeScript
 - Working with Generics
 - Working with Decorators
+- DOM Element Selection & OOP Rendering
