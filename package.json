@@ -7,12 +7,12 @@
     "do": "tsc $(find ./src -type f -name '*.ts' -print0 | xargs -0 ls -t | head -n 1) --outDir ./dist",
     "clear": "rimraf dist",
     "build": "rimraf dist && tsc",
-    "watch": "rimraf dist && tsc --watch"
+    "watch": "rimraf dist && tsc --watch",
+    "wp": "webpack"
   },
   "keywords": [],
   "author": "Ilya Kashitsyn",
   "license": "ISC",
-  "type": "module",
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "@typescript-eslint/eslint-plugin": "^8.33.1",
