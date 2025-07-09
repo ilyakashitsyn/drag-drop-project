@@ -9,3 +9,4 @@ Documentation on used APIs [MDN](https://developer.mozilla.org/en-US/docs/Web/AP
 - Working with Generics
 - Working with Decorators
 - DOM Element Selection & OOP Rendering
+- Implemented Webpack Prod / Dev
