@@ -8,7 +8,8 @@
     "clear": "rimraf dist",
     "build": "rimraf dist && tsc",
     "watch": "rimraf dist && tsc --watch",
-    "wp": "webpack"
+    "wp": "webpack",
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "Ilya Kashitsyn",
